@@ -9,7 +9,7 @@ plugins {
 }
 
 group = "io.github.freeism"
-version = "1.0.0.RELEASE"
+version = "1.0.1.RELEASE"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
 configurations {
