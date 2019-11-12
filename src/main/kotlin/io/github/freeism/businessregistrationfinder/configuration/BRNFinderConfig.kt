@@ -12,4 +12,4 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy
 @Configuration
 @EnableAspectJAutoProxy
 @ComponentScan(basePackageClasses = [ BusinessRegistrationFinderApplication::class ])
-class WebConfig
+class BRNFinderConfig

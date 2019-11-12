@@ -1,6 +1,6 @@
 package io.github.freeism.businessregistrationfinder.annotation
 
-import io.github.freeism.businessregistrationfinder.configuration.WebConfig
+import io.github.freeism.businessregistrationfinder.configuration.BRNFinderConfig
 import org.springframework.context.annotation.Import
 
 /**
@@ -10,5 +10,5 @@ import org.springframework.context.annotation.Import
 @Target(AnnotationTarget.CLASS, AnnotationTarget.FILE)
 @Retention(AnnotationRetention.RUNTIME)
 @MustBeDocumented
-@Import(WebConfig::class)
+@Import(BRNFinderConfig::class)
 annotation class BRNFinderEnabled
