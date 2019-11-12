@@ -1,6 +1,12 @@
 ### Getting Started
 ```groovy
-build.gradle
+repositories {
+    maven { url = uri("https://raw.githubusercontent.com/freeism/businessRegistrationFinder/master/releases") }
+}
+
+dependencies {
+    implementation 'io.github.freeism:business-registration-finder:1.0.1.RELEASE'
+}
 ```
 
 ```java
