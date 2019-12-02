@@ -1,3 +1,6 @@
+### Overview
+대한민국에서 사업자번호로 사업의 상태 -사업중,휴업,폐업- 등을 확인할 수 있는 API
+
 ### Getting Started
 ```groovy
 repositories {
